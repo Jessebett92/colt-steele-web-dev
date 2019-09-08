@@ -16,4 +16,4 @@ const isUniform = arr => {
   console.log(test);
 };
 
-isUniform([1, 2, 3]);
+isUniform([1, 2, 5]);
