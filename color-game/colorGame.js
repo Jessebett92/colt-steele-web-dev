@@ -4,8 +4,8 @@ let squares = document.querySelectorAll(".square");
 let pickedColor = pickColor();
 let colorDisplay = document.getElementById("colorDisplay");
 let messageDisplay = document.querySelector("#message");
-let h1 = document.querySelector("h1");
 let resetButton = document.querySelector("#reset");
+let h1 = document.querySelector("h1");
 
 resetButton.addEventListener("click", function() {
   colors = generateRandomColors(6);
